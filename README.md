@@ -8,6 +8,8 @@
 
 **Authors:**  
 Subhankar Swain*, Naquee Rizwan*, Vishwa Gangadhar S, Nayandeep Deb, Animesh Mukherjee
+
+* denotes equal contribution.
 ---
 
 ### 📄 Resources
@@ -61,5 +63,4 @@ If you find our work useful in your research, please consider citing:
 
 For any questions, suggestions, or issues regarding this repository, please contact:
 
-**Subhankar Swain**  
-📧 **subhankar.swain25@kgpian.iitkgp.ac.in**
+**subhankar.swain25@kgpian.iitkgp.ac.in**, **naqueerizwan1998@gmail.com**
