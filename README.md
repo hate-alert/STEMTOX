@@ -65,4 +65,4 @@ If you find our work useful in your research, please consider citing:
 
 For any questions, suggestions, or issues regarding this repository, please contact:
 
-**subhankar.swain25@kgpian.iitkgp.ac.in**, **naqueerizwan1998@gmail.com**
+**swainsubhankar.official@gmail.com**, **naqueerizwan1998@gmail.com**
