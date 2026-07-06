@@ -11,11 +11,14 @@ Subhankar Swain*, Naquee Rizwan*, Vishwa Gangadhar S, Nayandeep Deb, Animesh Muk
 
 ---
 
-### 📄 Resources
+# 📦 TOXICTAGS Dataset
 
+> **Download the TOXICTAGS dataset:**  
+> 🤗 **https://huggingface.co/datasets/swainsubhankar/ToxicTags**
+
+---
 <!-- - 📑 Paper -->
 - 📖 arXiv(https://arxiv.org/abs/2508.04166)
-- 🤗 Hugging Face Dataset(https://huggingface.co/datasets/anissssshhhhhh/ToxicTags)
 <!-- - 💻 Code -->
 <!-- - 📊 Slides -->
 
