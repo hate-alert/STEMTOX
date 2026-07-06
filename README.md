@@ -4,12 +4,11 @@
 
 🎉 **Accepted at Transactions of the Association for Computational Linguistics (TACL 2026).**
 
-**TACL (Transactions of the Association for Computational Linguistics)** is a premier, ACL-sponsored journal in the field of **Natural Language Processing (NLP)** and **Computational Linguistics**. Published by **MIT Press** on behalf of the **Association for Computational Linguistics (ACL)**, TACL is widely recognized as one of the most prestigious journals in AI and language technologies. According to the latest available **Journal Citation Reports (Clarivate)**, **TACL has an Impact Factor of 11.7**, highlighting its significant influence and research impact within the NLP community.
-
 **Authors:**  
 Subhankar Swain*, Naquee Rizwan*, Vishwa Gangadhar S, Nayandeep Deb, Animesh Mukherjee
 
-* denotes equal contribution.
+(*) denotes equal contribution
+
 ---
 
 ### 📄 Resources
