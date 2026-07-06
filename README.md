@@ -19,6 +19,7 @@ Subhankar Swain*, Naquee Rizwan*, Vishwa Gangadhar S, Nayandeep Deb, Animesh Muk
 ---
 <!-- - 📑 Paper -->
 - 📖 arXiv(https://arxiv.org/abs/2508.04166)
+- 🤖 Model(https://huggingface.co/swainsubhankar/STEMTOX-PaliGemma2-10B)
 <!-- - 💻 Code -->
 <!-- - 📊 Slides -->
 
