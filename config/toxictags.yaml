@@ -1,0 +1,21 @@
+dataset:
+  original_dataset_path: "anissssshhhhhh/ToxicTags"
+  dataset_tag: 'ToxicTags'
+  final_label: 'finegrained'
+  num_classes: 4
+  label_map:
+      2: 'D'
+      1: 'O'
+      0: 'N'
+      3: 'H'
+  label_map_reverse:
+      'D': 2
+      'O': 1
+      'N': 0
+      'H': 3
+  label_def:
+    'hateful': 'A direct or indirect attack on people based on characteristics, including ethnicity, race, nationality, immigration status, religion, caste, sex, gender identity, sexual orientation, and disability or disease. Attack is defined as violent or dehumanizing (comparing people to non-human things, e.g., animals) speech, statements of inferiority, and calls for exclusion or segregation. Mocking hate crime is also considered hateful.'
+    'offensive': 'A text, meme or speech which is neither hateful, nor dangerous but uses abusive slurs or derogatory terms will be considered as offensive.'
+    'dangerous': 'A text, meme or speech which is not hateful but uses any form of expression that can increase the risk of its audience to condone or participate in violence against members of another group will be considered as dangerous.'
+    'toxic': 'A rude, disrespectful, or unreasonable comment that is likely to make you leave a discussion.'
+    'normal': 'A meme which is not toxic, hateful, offensive or dangerous and follows social norms.'
