@@ -31,7 +31,7 @@ Subhankar Swain*, Naquee Rizwan*, Vishwa Gangadhar S, Nayandeep Deb, Animesh Muk
 ## STEMTOX Architecture
 
 <p align="center">
-  <img src="architecture.png" alt="STEMTOX Architecture" width="900">
+  <img src="architecture.png" alt="STEMTOX Architecture" width="80%">
 </p>
 
 ## 📖 Abstract
