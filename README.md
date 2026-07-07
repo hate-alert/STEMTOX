@@ -1,6 +1,6 @@
 <!-- # STEMTOX -->
 
-## STEMTOX: From Collaborative Tags to Fine-Grained Toxic Meme Detection via Entropy-Guided Multi-Task Learning
+## StemTox: From Collaborative Tags to Fine-Grained Toxic Meme Detection via Entropy-Guided Multi-Task Learning
 
 🎉 **Accepted at Transactions of the Association for Computational Linguistics (TACL 2026).**
 
@@ -9,44 +9,38 @@ Subhankar Swain*, Naquee Rizwan*, Vishwa Gangadhar S, Nayandeep Deb, Animesh Muk
 
 (*) denotes equal contribution
 
----
-
-# 📦 TOXICTAGS Dataset
-
-> **Download the TOXICTAGS dataset:**  
-> 🤗 **https://huggingface.co/datasets/swainsubhankar/ToxicTags**
+**Arxiv**: https://arxiv.org/abs/2508.04166
 
 ---
-<!-- - 📑 Paper -->
-- 📖 arXiv(https://arxiv.org/abs/2508.04166)
-- 🤖 Model(https://huggingface.co/swainsubhankar/STEMTOX-PaliGemma2-10B)
-<!-- - 💻 Code -->
-<!-- - 📊 Slides -->
-
-<!-- *(Links will be updated upon public release.)* -->
+**Warning**: This repository and the associated dataset contain examples of potentially toxic and offensive content for research purposes.
 
 ---
-> [!WARNING]
-> This repository and the associated dataset contain examples of potentially toxic and offensive content for research purposes.
 
-## STEMTOX Architecture
+## ToxicTags Dataset 🤗
+https://huggingface.co/datasets/swainsubhankar/ToxicTags
+
+---
+
+## StemTox Architecture
+
+Model checkpoint - https://huggingface.co/swainsubhankar/STEMTOX-PaliGemma2-10B
 
 <p align="center">
   <img src="architecture.png" alt="STEMTOX Architecture" width="80%">
 </p>
 
-## 📖 Abstract
+## Abstract
 
-Memes, as a widely used mode of online communication, often serve as vehicles for spreading harmful content. However, limitations in data accessibility and the high costs of dataset curation hinder the development of robust meme moderation systems. To address this challenge, we introduce **TOXICTAGS**, a first-of-its-kind dataset consisting of **6,300 real-world meme-based posts** annotated through a two-stage process: (i) binary classification into **toxic** and **normal**, and (ii) fine-grained labeling of toxic memes as **hateful**, **dangerous**, or **offensive**. A key feature of TOXICTAGS is its enrichment with auxiliary metadata in the form of **socially relevant tags**, providing valuable contextual information for each meme. Building on this dataset, we propose **STEMTOX**, a novel **entropy-guided multi-task learning framework** that jointly generates socially grounded tags and performs robust toxicity classification. Experimental results demonstrate that incorporating these contextual tags substantially improves the performance of state-of-the-art Vision-Language Models (VLMs) on toxicity detection tasks. Our contributions provide a novel and scalable foundation for improved multimodal content moderation in online environments.
+Memes, as a widely used mode of online communication, often serve as vehicles for spreading harmful content. However, limitations in data accessibility and the high costs of dataset curation hinder the development of robust meme moderation systems. To address this challenge, we introduce **ToxicTags**, a first-of-its-kind dataset consisting of **6,300 real-world meme-based posts** annotated through a two-stage process: (i) binary classification into **toxic** and **normal**, and (ii) fine-grained labeling of toxic memes as **hateful**, **dangerous**, or **offensive**. A key feature of TOXICTAGS is its enrichment with auxiliary metadata in the form of **socially relevant tags**, providing valuable contextual information for each meme. Building on this dataset, we propose **StemTox**, a novel **entropy-guided multi-task learning framework** that jointly generates socially grounded tags and performs robust toxicity classification. Experimental results demonstrate that incorporating these contextual tags substantially improves the performance of state-of-the-art Vision-Language Models (VLMs) on toxicity detection tasks. Our contributions provide a novel and scalable foundation for improved multimodal content moderation in online environments.
 
-## ✨ Key Contributions
+## Key Contributions
 
-**(A)** We introduce **TOXICTAGS**, a diverse real-world meme dataset that incorporates **collaborative tags** collected from associated post metadata—a critical yet often overlooked feature in social media content that is extensively used for describing, categorizing, and commenting on digital content. Unlike prior datasets, it consists of **only real-world memes** with no restrictions based on specific targets or events. The final dataset comprises **6,300** annotated memes, capturing a wide spectrum of online discourse.
+**(A)** We introduce **ToxicTags**, a diverse real-world meme dataset that incorporates **collaborative tags** collected from associated post metadata—a critical yet often overlooked feature in social media content that is extensively used for describing, categorizing, and commenting on digital content. Unlike prior datasets, it consists of **only real-world memes** with no restrictions based on specific targets or events. The final dataset comprises **6,300** annotated memes, capturing a wide spectrum of online discourse.
 
 **(B)** We design a rigorous **two-stage human annotation pipeline**. In the first stage, memes are annotated as either **toxic** or **normal**. In the second stage, toxic memes are further categorized into one of three fine-grained classes: **hateful**, **dangerous**, or **offensive**. These categories were distilled through an iterative annotation process, resulting in a four-class taxonomy that is expressive for moderating a wide range of social media content.
 
-**(C)** We introduce **STEMTOX**, a novel entropy-guided multi-task learning framework that jointly generates **socially grounded collaborative tags** and performs **fine-grained toxicity classification**, significantly improving meme classification performance over existing approaches.
-## 📚 Citation
+**(C)** We introduce **StemTox**, a novel entropy-guided multi-task learning framework that jointly generates **socially grounded collaborative tags** and performs **fine-grained toxicity classification**, significantly improving meme classification performance over existing approaches.
+## Citation
 
 If you find our work useful in your research, please consider citing:
 
@@ -62,8 +56,8 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
-## 📧 Contact
+## Contact
 
 For any questions, suggestions, or issues regarding this repository, please contact:
 
-**swainsubhankar.official@gmail.com**, **naqueerizwan1998@gmail.com**
+swainsubhankar.official@gmail.com, naqueerizwan1998@gmail.com
